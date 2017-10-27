@@ -28,3 +28,23 @@ body {
 .image_swap img {
   max-width: 100%;
 }
+
+
+.circles img {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+
+body.s1 .image1, body.s4 .image1, body.s7 .image1 {
+  display: block;
+}
+
+body.s2 .image2, body.s5 .image2, body.s8 .image2 {
+  display: block;
+}
+
+body.s3 .image3, body.s6 .image3, body.s9 .image3{
+  display: block;
+}
