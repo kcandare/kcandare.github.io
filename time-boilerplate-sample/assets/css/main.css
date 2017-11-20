@@ -6,8 +6,9 @@
 /* Start here */
 
 body {
-
 }
+
+
 
 
 .time {
@@ -16,35 +17,36 @@ body {
   text-transform: uppercase;
   font-family: courier;
   margin-bottom: 80px;
-  margin-top: 100px;
+  margin-top: 0px;
 }
 
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
 
 .image_swap {
   margin: auto;
-  width: 1000px;
+  width: 600px;
 }
 
 .image_swap img {
   max-width: 100%;
 }
 
+body.evenS .image_swap .death {
+  display: block;
+}
 
-.circles img {
+body.oddS .image_swap .death {
   display: none;
-  width: 100%;
-  height: auto;
 }
 
-
-body.s1 .image1, body.s4 .image1, body.s7 .image1 {
+body.evenS .image_swap .birth {
   display: block;
 }
 
-body.s2 .image2, body.s5 .image2, body.s8 .image2 {
-  display: block;
-}
-
-body.s3 .image3, body.s6 .image3, body.s9 .image3{
-  display: block;
+body.oddS .image_swap .birth {
+  display: none;
 }
