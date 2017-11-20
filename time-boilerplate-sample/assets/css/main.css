@@ -35,6 +35,7 @@ img {
   max-width: 100%;
 }
 
+<<<<<<< HEAD
 body.evenS .image_swap .death {
   display: block;
 }
@@ -49,4 +50,24 @@ body.evenS .image_swap .birth {
 
 body.oddS .image_swap .birth {
   display: none;
+=======
+
+.circles img {
+  display: none;
+  width: 100%;
+  height: auto;
+}
+
+
+body.s1 .image1, body.s4 .image1, body.s7 .image1 {
+  display: block;
+}
+
+body.s2 .image2, body.s5 .image2, body.s8 .image2 {
+  display: block;
+}
+
+body.s3 .image3, body.s6 .image3, body.s9 .image3{
+  display: block;
+>>>>>>> 5d2cab334425ed3b5d56d8f5dc25c9588db02b9f
 }
